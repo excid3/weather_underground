@@ -8,6 +8,10 @@ Usage
 
     w = WeatherUnderground::Base.new(API_KEY)
 
+Forecast
+
+    w.forecast('63108')
+
 GeoLookup:
 
     w.geolookup('63108')
