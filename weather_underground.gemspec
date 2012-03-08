@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Oliver"]
   s.email       = ["excid3@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{A Ruby gem for the Weather Underground API}
+  s.description = %q{A Ruby gem for the Weather Underground API}
 
   s.rubyforge_project = "weather_underground"
 
@@ -20,5 +20,6 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "rest-client", "~> 1.6.7"
+  s.add_runtime_dependency "json", "~> 1.6.5"
 end
