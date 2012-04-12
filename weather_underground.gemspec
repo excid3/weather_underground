@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = WeatherUnderground::VERSION
   s.authors     = ["Chris Oliver"]
   s.email       = ["excid3@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/excid3/weather_underground"
   s.summary     = %q{A Ruby gem for the Weather Underground API}
   s.description = %q{A Ruby gem for the Weather Underground API}
 
